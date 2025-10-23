@@ -11,108 +11,108 @@ interface CharacterData {
 
 const characterMap: Record<string, CharacterData> = {
   A: {
-    character: "Adventurous Alligator",
-    text: "First, {name} wandered into a sunny meadow and met an Adventurous Alligator named Albie. Albie was sunbathing by a sparkling river, snapping his jaws at butterflies. \"I've lost my name!\" {name} explained. Albie grinned with his toothy smile. \"Well, I'll help you! Here's the letter A—it looks just like my pointy teeth!\" Together, they skipped along, and {name} felt a bit more complete.",
+    character: "Adventurous Amethyst Guardian",
+    text: "An Adventurous Amethyst spirit appeared, glowing with purple light, guiding {name} through a shimmering cave. The walls sparkled like a thousand stars. \"Look!\" whispered the spirit, pointing to a gleaming facet on the cave floor. The letter A emerged, radiating with inner strength and courage.",
   },
   B: {
-    character: "Bouncy Bear",
-    text: "Next, {name} discovered a Bouncy Bear named Bella in a honey-sweet meadow. Bella was doing somersaults and juggling berries. \"My name is missing!\" {name} cried. Bella laughed warmly. \"Don't worry! Take this letter B—it's round like my belly after eating honey!\" With a bounce and a giggle, they continued the quest.",
+    character: "Brave Blue Sapphire Bird",
+    text: "High above, a Brave Blue Sapphire bird soared across the endless sky, its wings catching the sunlight. \"Come fly with me!\" it sang. As {name} soared together with the bird, it gifted the letter B, shaped like a wing of freedom, teaching that bravery lifts us higher.",
   },
   C: {
-    character: "Curious Cat",
-    text: "Then, {name} met a Curious Cat named Cleo perched on a rainbow-colored fence. Cleo's whiskers twitched with excitement. \"Looking for something?\" she purred. \"Yes, my name!\" {name} replied. Cleo stretched gracefully. \"Here's the letter C—it curves like my tail when I'm happy!\" Purring contentedly, they journeyed on.",
+    character: "Cheerful Citrine Cat",
+    text: "In a sunny meadow filled with golden flowers, a Cheerful Citrine cat pounced playfully, batting at butterflies. \"Catch me if you can!\" she purred with joy. With a happy flip, she revealed the letter C to {name}, curved like a smile of pure happiness.",
   },
   D: {
-    character: "Dancing Dragon",
-    text: "Deep in a mountain cave, {name} found a Dancing Dragon named Dusty, twirling with flames of joy. \"I've lost my name!\" {name} shouted over the music. Dusty spun around happily. \"Fear not! Here's the letter D—it stands tall like my wings when I dance!\" With a fiery flourish, the adventure continued.",
+    character: "Daring Diamond Dragon",
+    text: "A magnificent Daring Diamond dragon emerged from its treasure hoard, scales glittering like precious gems. \"Seek wisdom, young one,\" it rumbled gently to {name}, breathing sparks of ancient knowledge. Among the treasures lay the letter D, sharp and brilliant as dragon's wisdom.",
   },
   E: {
-    character: "Energetic Elephant",
-    text: "In an enchanted grove filled with glowing flowers, {name} encountered an Energetic Elephant named Ellie. Ellie was trumpeting tunes and spraying water from her trunk like a fountain. \"Help! I've lost my name!\" {name} pleaded. Ellie flapped her big ears happily. \"I've got just the thing! Here's the letter E—it's strong and sturdy, like my trunk!\" Trumpeting a victory song, they marched on.",
+    character: "Energetic Emerald Elf",
+    text: "An Energetic Emerald elf danced through an enchanted forest, leaving trails of green sparkles. \"Watch this magic!\" she giggled to {name}, weaving spells with her tiny hands. The trees bent to reveal the letter E, glowing like a fresh leaf of growth and new beginnings.",
   },
   F: {
-    character: "Friendly Fox",
-    text: "Under a willow tree, {name} met a Friendly Fox named Finn, his tail bushy and bright. \"Lost something?\" Finn asked cleverly. \"My name!\" {name} answered. Finn's eyes sparkled. \"Perfect! Here's the letter F—it's sharp like my ears listening for adventure!\" With a knowing nod, they pressed forward.",
+    character: "Friendly Fire Opal Fox",
+    text: "A Friendly Fire Opal fox trotted through fields of flame-colored flowers, its coat shimmering with orange and red light. \"Come warm yourself by my friendship,\" it said kindly to {name}, and the letter F appeared like a dancing flame, representing the warmth of true friendship.",
   },
   G: {
-    character: "Giggling Giraffe",
-    text: "By a tall tree, {name} spotted a Giggling Giraffe named Grace, her spots shimmering in the sun. \"What's wrong?\" she asked gently. \"I can't find my name!\" {name} said. Grace bent down with a smile. \"Here's the letter G—it's tall like me reaching for the clouds!\" Giggling together, they continued the search.",
+    character: "Gentle Garnet Giant",
+    text: "A Gentle Garnet giant stomped softly through the mountains, each step careful not to harm even the smallest flower. \"Strength and gentleness go together,\" the giant smiled to {name}, lifting a boulder to reveal the letter G beneath, symbolizing gentle power.",
   },
   H: {
-    character: "Happy Hedgehog",
-    text: "{name} discovered a Happy Hedgehog named Hugo rolling through a field of daisies. \"Need help?\" Hugo chirped cheerfully. \"Yes, I've lost my name!\" Hugo uncurled with a grin. \"Take the letter H—it's prickly but kind, just like me!\" Rolling with joy, they moved along.",
+    character: "Helpful Hematite Horse",
+    text: "A Helpful Hematite horse galloped across silver plains, its metallic coat gleaming. \"Need a ride?\" it offered kindly to {name}, helping weary travelers along the way. With a proud whinny, it presented the letter H, shaped like a horseshoe of good luck and helpfulness.",
   },
   I: {
-    character: "Imaginative Iguana",
-    text: "On a sunny rock, {name} found an Imaginative Iguana named Iris, painting the sky with her tail. \"Missing something?\" Iris asked dreamily. \"My name!\" {name} replied. Iris nodded wisely. \"Here's the letter I—it stands straight like me basking in creativity!\" With colorful imagination, they ventured on.",
+    character: "Imaginative Indigo Imp",
+    text: "In a whimsical workshop, an Imaginative Indigo imp tinkered with magical gadgets and gizmos. \"Ideas are everywhere!\" it chirped to {name}, pointing to blueprints and inventions. A beam of light shot out, forming the letter I—a straight line of brilliant imagination and innovation.",
   },
   J: {
-    character: "Joyful Jellyfish",
-    text: "In a crystal-clear lagoon, {name} met a Joyful Jellyfish named Jasper, glowing with rainbow lights. \"What brings you here?\" Jasper asked softly. \"I'm searching for my name!\" Jasper pulsed with light. \"Take the letter J—it dangles like my tentacles!\" Floating gracefully, they continued together.",
+    character: "Joyful Jade Jaguar",
+    text: "A Joyful Jade jaguar leaped through the jungle, its green spots glowing with happiness. \"Listen to my roar of laughter!\" it called to {name}, rolling in the grass with pure delight. From its collar dangled the letter J, a precious jewel of joy and celebration.",
   },
   K: {
-    character: "Kind Kangaroo",
-    text: "{name} hopped into a golden field where a Kind Kangaroo named Kira was bouncing with her joey. \"Need a hand?\" Kira asked warmly. \"I've lost my name!\" {name} explained. Kira smiled and reached into her pouch. \"Here's the letter K—it hops like me!\" Bouncing with kindness, they journeyed on.",
+    character: "Kind Kunzite Kangaroo",
+    text: "A Kind Kunzite kangaroo hopped along, her pouch full of gifts for those in need. \"Kindness is the greatest treasure,\" she said softly to {name}, sharing hugs and smiles. She reached into her pouch and pulled out the letter K—a kick of pure compassion.",
   },
   L: {
-    character: "Lively Leopard",
-    text: "The path led to a lush jungle where vines swung like playground ropes. There, swinging from branch to branch, was a Lively Leopard named Luna. Luna had spots as shiny as stars and could leap higher than the treetops. \"My name's missing!\" {name} said. Luna purred with excitement. \"No worries! Take this letter L—it's curvy like my tail when I chase fireflies!\" With Luna's help, they bounded forward.",
+    character: "Lively Lapis Lazuli Lion",
+    text: "A Lively Lapis Lazuli lion roared across the pride lands, its blue mane flowing like ocean waves. \"Lead with your heart!\" it proclaimed to {name}, standing proud and strong. The lion's roar formed the letter L in the clouds—a symbol of leadership and courage.",
   },
   M: {
-    character: "Musical Monkey",
-    text: "High in the trees, {name} heard drums and found a Musical Monkey named Max playing on hollow logs. \"Lost something special?\" Max asked between beats. \"My name!\" {name} answered. Max grinned and handed over a drumstick shaped like the letter M. \"Here you go—it has two peaks like my ears!\" Drumming happily, they swung onward.",
+    character: "Magical Moonstone Mermaid",
+    text: "Deep in the ocean, a Magical Moonstone mermaid swam gracefully through coral gardens. \"Join my song,\" she sang to {name}, her voice creating ripples of silver light. The waves parted to reveal the letter M, rising and falling like the magical tide itself.",
   },
   N: {
-    character: "Noble Nightingale",
-    text: "As twilight fell, {name} met a Noble Nightingale named Nina singing the most beautiful song. \"What troubles you?\" Nina asked melodiously. \"I can't find my name!\" Nina's voice shimmered. \"Take the letter N—it rises and falls like my song!\" Singing sweetly, they flew through the evening.",
+    character: "Noble Nephrite Ninja",
+    text: "A Noble Nephrite ninja moved silently through shadows, swift as the wind. \"Honor and stealth guide my path,\" they whispered to {name}, demonstrating incredible moves. With a graceful flip, they revealed the letter N, carved in jade and representing nobility and skill.",
   },
   O: {
-    character: "Optimistic Owl",
-    text: "In a moonlit forest, {name} found an Optimistic Owl named Oliver perched on an ancient oak. \"Seeking wisdom?\" Oliver hooted kindly. \"Yes, and my name!\" Oliver blinked wisely. \"Here's the letter O—it's round like the full moon guiding you home!\" Hooting with hope, they soared ahead.",
+    character: "Optimistic Onyx Owl",
+    text: "An Optimistic Onyx owl perched on an ancient tree, its black feathers shimmering with starlight. \"Every night brings new wisdom,\" it hooted softly to {name}, gazing at the moon. Its wise eyes spotted the letter O, glowing like a full moon of endless hope.",
   },
   P: {
-    character: "Playful Penguin",
-    text: "On an icy shore, {name} slid toward a Playful Penguin named Penny waddling with joy. \"What are you looking for?\" Penny asked. \"My name!\" {name} replied. Penny flapped her flippers excitedly. \"Take the letter P—it stands proud like me on the ice!\" Sliding together, they pressed on.",
+    character: "Playful Pearl Penguin",
+    text: "A Playful Pearl penguin slid joyfully across the ice, belly-flopping with giggles. \"Playtime is the best time!\" it chirped to {name}, diving into crystal waters. Surfacing with a splash, it presented the letter P, shining like a perfect pearl of play and fun.",
   },
   Q: {
-    character: "Quiet Quail",
-    text: "In a peaceful meadow, {name} spotted a Quiet Quail named Quinn nestled in soft grass. \"Need something?\" Quinn whispered gently. \"My name is lost!\" Quinn nodded softly. \"Here's the letter Q—it's unique and gentle, like me!\" With a quiet coo, they continued the journey.",
+    character: "Quirky Quartz Queen",
+    text: "A Quirky Quartz queen ruled from her crystal castle, wearing a crown of rainbow gems. \"Answer my riddle!\" she challenged {name} with a kind smile, testing wit and wisdom. When answered correctly, she revealed the letter Q, unlocking secrets of curiosity and questions.",
   },
   R: {
-    character: "Radiant Rabbit",
-    text: "{name} hopped through a garden and met a Radiant Rabbit named Ruby, her fur glowing in the sunlight. \"What's missing?\" Ruby asked brightly. \"My name!\" Ruby twitched her nose. \"Take the letter R—it bounces like me through the flowers!\" Hopping with radiance, they moved forward.",
+    character: "Radiant Ruby Rabbit",
+    text: "A Radiant Ruby rabbit hopped energetically through magical gardens, leaving trails of red sparkles. \"Resilience makes us strong!\" it said to {name}, bouncing higher with each jump. The rabbit dug into the earth and pulled up the letter R—a root of strength and resilience.",
   },
   S: {
-    character: "Silly Seahorse",
-    text: "Diving into a coral reef, {name} found a Silly Seahorse named Sam twirling through the waves. \"Lost at sea?\" Sam asked playfully. \"I've lost my name!\" Sam spiraled with laughter. \"Here's the letter S—it curves like me swimming!\" Swirling together, they swam ahead.",
+    character: "Sparkly Sapphire Snake",
+    text: "A Sparkly Sapphire snake slithered gracefully through desert sands, its scales glittering blue in the sun. \"Change helps us grow,\" it hissed gently to {name}, shedding its old skin. Beneath lay the letter S, shimmering like a ribbon of transformation and renewal.",
   },
   T: {
-    character: "Thoughtful Turtle",
-    text: "By a calm pond, {name} met a Thoughtful Turtle named Theo, slowly sunbathing on a lily pad. \"What do you seek?\" Theo asked patiently. \"My name!\" {name} said. Theo smiled wisely. \"Here's the letter T—it stands steady like me!\" Moving with patience, they continued on.",
+    character: "Trusty Topaz Tiger",
+    text: "A Trusty Topaz tiger prowled through golden grasslands, its stripes gleaming like amber. \"Trust is earned through honesty,\" it purred wisely to {name}, following tracks with precision. The tiger revealed the letter T hidden in its stripes—a symbol of truth and trustworthiness.",
   },
   U: {
-    character: "Upbeat Unicorn",
-    text: "In a magical clearing, {name} encountered an Upbeat Unicorn named Una, her horn sparkling with stardust. \"Need some magic?\" Una asked brightly. \"Yes, I need my name!\" Una tossed her mane joyfully. \"Take the letter U—it holds magic like my horn!\" Galloping with wonder, they raced ahead.",
+    character: "Unique Ultramarine Unicorn",
+    text: "A Unique Ultramarine unicorn galloped through meadows of wildflowers, its horn glowing with deep blue light. \"You are one of a kind!\" it neighed proudly to {name}, bringing friends together in harmony. Its magical horn traced the letter U—celebrating everyone's uniqueness.",
   },
   V: {
-    character: "Vibrant Vulture",
-    text: "Soaring through the sky, {name} met a Vibrant Vulture named Vera gliding on warm winds. \"Looking for something?\" Vera called down. \"My name!\" {name} shouted up. Vera swooped gracefully. \"Here's the letter V—it points like my wings in flight!\" Flying together, they soared onward.",
+    character: "Vibrant Violet Bat",
+    text: "A Vibrant Violet vampire bat fluttered through the twilight sky, friendly and full of energy. \"Feel the good vibes!\" it squeaked cheerfully to {name}, doing loop-de-loops in the dusk. With a happy flip, it revealed the letter V, pulsing with positive vibrations and vitality.",
   },
   W: {
-    character: "Wise Whale",
-    text: "Out in the deep blue ocean, {name} met a Wise Whale named Wanda who sang songs of the sea. \"Lost something precious?\" Wanda asked in a deep voice. \"My name!\" {name} replied. Wanda's voice rumbled warmly. \"Take the letter W—it waves like the ocean!\" Singing together, they swam on.",
+    character: "Wise White Opal Wolf",
+    text: "A Wise White Opal wolf howled softly in moonlit woods, its coat shimmering with rainbow colors. \"Listen to the whispers of wisdom,\" it said gently to {name}, sharing ancient secrets. The wolf's paw prints formed the letter W—a winding path of wisdom and wonder.",
   },
   X: {
-    character: "Extraordinary Xerus",
-    text: "At the top of a misty mountain where clouds danced like cotton candy, {name} found an Extraordinary Xerus (that's a fancy squirrel!) named Xavi playing a xylophone. The melody echoed through the peaks. \"My name is almost found, but I need one more piece!\" {name} shouted. Xavi twinkled his eyes. \"Perfect timing! Here's the letter X—it's crisscross like the paths on my treasure map!\" With a final chime, the name clicked into place.",
+    character: "Extraordinary Xenotime Xerus",
+    text: "An Extraordinary Xenotime xerus (a magical squirrel) played a crystal xylophone in a forest clearing. \"Music makes everything extraordinary!\" it chattered to {name}, creating beautiful melodies. The musical notes danced together to form the letter X—crisscrossing in harmony and uniqueness.",
   },
   Y: {
-    character: "Youthful Yak",
-    text: "In snowy peaks, {name} met a Youthful Yak named Yara, her fur fluffy and warm. \"What brings you to the mountains?\" Yara asked kindly. \"I'm searching for my name!\" Yara nodded thoughtfully. \"Here's the letter Y—it branches like the paths we choose!\" Trudging warmly together, they climbed on.",
+    character: "Youthful Yellow Topaz Yeti",
+    text: "A Youthful Yellow Topaz yeti yodeled joyfully from snowy mountain peaks, its golden fur gleaming against white snow. \"Yodel-ay-hee-hoo!\" it called to {name}, full of energy and life. The echo bounced off mountains, forming the letter Y—a symbol of youth and youthful spirit.",
   },
   Z: {
-    character: "Zany Zebra",
-    text: "In a vibrant savanna, {name} spotted a Zany Zebra named Zeke, his stripes dazzling in zigzags. \"Need something?\" Zeke asked with a laugh. \"My name!\" {name} called. Zeke pranced playfully. \"Take the letter Z—it zigzags like my stripes and my dance!\" Galloping with energy, they completed the quest.",
+    character: "Zesty Zircon Zebra",
+    text: "A Zesty Zircon zebra zipped energetically across the savanna, its stripes sparkling like diamonds. \"Zigzag with me!\" it laughed with {name}, racing with the wind. In a cloud of dust, it revealed the letter Z—the final piece, adding zest and excitement to the adventure.",
   },
 };
 
@@ -125,30 +125,37 @@ export interface GeneratedStory {
 }
 
 export const generateStory = (name: string, gender: "boy" | "girl"): GeneratedStory => {
+  const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
   const nameCaps = name.toUpperCase();
   const letters = nameCaps.split("");
   const pronoun = gender === "boy" ? "he" : "she";
-  const child = gender === "boy" ? "boy" : "girl";
+  const possessive = gender === "boy" ? "his" : "her";
 
-  const intro = `Once upon a time, in a cozy little house at the edge of a whispering forest, there lived a curious ${child} named ${name}. But one starry night, something magical happened—${name}'s name vanished! Poof! Gone like a puff of smoke. "Oh no!" cried ${name}. "I must find my name!" So, with a backpack full of snacks and a heart full of bravery, ${name} set off on an epic adventure.`;
+  const intro = `Once upon a time, there was a special child named ${capitalizedName}. One magical morning, ${capitalizedName} woke to discover something extraordinary—${possessive} name had transformed into a beautiful jewel, but it had shattered into glowing pieces scattered across enchanted lands! Each letter had become a precious gem, hidden and waiting to be found. "My name is my treasure!" ${capitalizedName} declared bravely. "I must collect every sparkling piece!" With excitement bubbling like a fountain and courage shining like a star, ${pronoun} set off on the most amazing quest ever, ready to meet magical friends and discover the jewel that is ${possessive} name.`;
 
-  const segments: StorySegment[] = letters.map((letter) => {
+  const segments: StorySegment[] = letters.map((letter, index) => {
     const charData = characterMap[letter] || {
-      character: `Magic ${letter}`,
-      text: `${name} found the magical letter ${letter} glowing with enchantment. "This is part of my name!" ${name} exclaimed with joy. With the letter safely collected, the adventure continued.`,
+      character: `Mysterious ${letter} Spirit`,
+      text: `In a mystical realm of wonder, ${capitalizedName} encountered a magical spirit guardian. "I've been waiting for you," it whispered kindly, revealing the letter ${letter} glowing with enchanted light—a precious gem piece of ${possessive} name, ready to be reclaimed.`,
     };
+
+    // Handle repeated letters with slight variation
+    const isRepeat = letters.slice(0, index).includes(letter);
+    const text = isRepeat
+      ? charData.text.replace(/{name}/g, capitalizedName).replace("The letter", "Another letter").replace("the letter", "another letter")
+      : charData.text.replace(/{name}/g, capitalizedName);
 
     return {
       letter,
       character: charData.character,
-      text: charData.text.replace(/{name}/g, name),
+      text,
     };
   });
 
-  const conclusion = `Hand in hand (or paw in trunk in tail), the friends returned home. ${name}'s name shone brightly once more, spelled out in the stars: ${letters.join("-")}. From that day on, ${name} knew that names are made of magic, friends, and a dash of adventure. And they all lived happily ever after, sharing stories under the moonlit sky. The End.`;
+  const conclusion = `With all the precious gem-letters gathered close to ${possessive} heart, ${capitalizedName} watched in wonder as they floated up and swirled together like a magical dance. Sparkles filled the air! Light shimmered everywhere! And then—click, click, click—the letters locked into place, forming the most beautiful jewel ever seen. It spelled: **${letters.join(" · ")}**. "${capitalizedName}!" ${pronoun} whispered with joy, holding the complete jewel. "That's me!" All the magical friends cheered and celebrated, for they knew this jewel was unique in all the world—just like ${capitalizedName}. From that day forward, ${capitalizedName} wore ${possessive} name with pride, a treasure made of courage, kindness, friendship, and adventure. And ${pronoun} knew that no matter where ${pronoun} went, ${possessive} name would always shine bright. The End.`;
 
   return {
-    name,
+    name: capitalizedName,
     gender,
     intro,
     segments,
