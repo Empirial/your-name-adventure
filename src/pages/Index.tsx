@@ -144,7 +144,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-muted/50 py-8 border-t">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>© 2025 Magical Name Stories. Creating adventures one name at a time.</p>
+          <p>© 2025 The Jewel That Is My Name. Creating magical adventures one name at a time.</p>
         </div>
       </footer>
     </div>

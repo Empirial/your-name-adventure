@@ -23,7 +23,7 @@ const CreateStory = () => {
           </Button>
           <div className="flex items-center gap-2 font-bold text-lg">
             <Sparkles className="w-5 h-5 text-primary" />
-            Magical Name Stories
+            The Jewel That Is My Name
           </div>
         </div>
       </header>
