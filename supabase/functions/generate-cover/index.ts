@@ -63,7 +63,7 @@ Deno.serve(async (req: Request) => {
       name: nameText,
       textPosition: {
         x: 512,
-        y: 430,
+        y: 480,
       },
       textStyle: {
         fontSize: Math.min(80, 600 / nameText.length),
