@@ -12,7 +12,7 @@ import {
   CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel";
-import CoverPageImg from "@/assets/Cover_Page.png";
+import { PersonalizedCover } from "@/components/PersonalizedCover";
 
 const getImagePath = (segment: StorySegment): string => {
   const characterName = segment.character.replace(/\s+/g, '-');
@@ -95,21 +95,11 @@ const PreviewStory = () => {
                 <CarouselContent>
                   {/* Cover Page */}
                   <CarouselItem>
-                    <div className="aspect-[4/3] relative overflow-hidden rounded-2xl shadow-2xl bg-gradient-to-br from-purple-900 via-pink-800 to-purple-900">
-                      <img
-                        src={CoverPageImg}
-                        alt="Cover Page"
-                        className="w-full h-full object-cover"
+                    <div className="aspect-[4/3] relative overflow-hidden rounded-2xl shadow-2xl">
+                      <PersonalizedCover
+                        name={story.name}
+                        className="w-full h-full"
                       />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-center">
-                          <h2 className="text-5xl md:text-6xl font-bold text-white drop-shadow-2xl" style={{
-                            textShadow: '0 0 20px rgba(255,255,255,0.5), 0 4px 8px rgba(0,0,0,0.8)'
-                          }}>
-                            {story.name}
-                          </h2>
-                        </div>
-                      </div>
                     </div>
                   </CarouselItem>
 
