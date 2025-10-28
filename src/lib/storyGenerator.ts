@@ -1,4 +1,4 @@
-interface StorySegment {
+export interface StorySegment {
   letter: string;
   character: string;
   text: string;
