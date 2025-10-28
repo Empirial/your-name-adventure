@@ -66,7 +66,7 @@ Deno.serve(async (req: Request) => {
         y: 150,
       },
       textStyle: {
-        fontSize: Math.min(80, 600 / nameText.length),
+        fontSize: Math.min(10, 200 / nameText.length),
         color: "#6A4A8A",
         strokeColor: "#FFFFFF",
         strokeWidth: 3,
