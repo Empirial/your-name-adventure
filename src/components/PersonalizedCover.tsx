@@ -37,23 +37,21 @@ export const PersonalizedCover = ({ name, className = "", onError }: Personalize
       setError(null);
 
       try {
-        const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-        const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-
-        const response = await fetch(`${supabaseUrl}/functions/v1/generate-cover`, {
-          method: "POST",
-          headers: {
-            "Authorization": `Bearer ${supabaseKey}`,
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ name }),
+        const { supabase } = await import('@/integrations/supabase/client');
+        
+        const { data, error: functionError } = await supabase.functions.invoke('generate-cover', {
+          body: { name },
         });
 
-        if (!response.ok) {
-          throw new Error(`Failed to generate cover: ${response.status}`);
+        if (functionError) {
+          throw functionError;
         }
 
-        const coverData: CoverData = await response.json();
+        if (!data || !data.success) {
+          throw new Error('Failed to generate cover data');
+        }
+
+        const coverData: CoverData = data;
 
         const canvas = canvasRef.current;
         const ctx = canvas.getContext("2d");
